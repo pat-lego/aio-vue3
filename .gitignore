@@ -29,3 +29,4 @@ coverage
 .aws.tmp.creds.json
 .aio
 .parcel-cache
+.env
