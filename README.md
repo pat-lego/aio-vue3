@@ -49,3 +49,18 @@ You can generate this file using the command `aio app use`.
      install the required dependencies within that directory and zip the folder
      before deploying it as a zipped action. Use this method if you want to keep
      your action's dependencies separated.
+
+# Building
+
+1. Make sure to have NodeJS (this was testing with Node v14.18.1/ NPM 8.19.2)
+2. Download the repository 
+3. Run `aio app build` this will create a dist/ folder under the root of the project
+4. Run `aio app deploy` this will deploy the project and provide you with a URL to view the page
+
+Workspace URL: https://developer.adobe.com/console/projects/35196/4566206088345005815/workspaces/4566206088345014059/details
+
+#  Using
+
+1. Create a AIO project in Adobe Developer console
+2. Download the workspace json
+3. Run `aio app use APP_JSON_CONFIG` this will configure AIO to the project
