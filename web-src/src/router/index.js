@@ -2,7 +2,8 @@ import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  // history: createWebHistory(), <-- This will break routing
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
